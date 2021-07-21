@@ -3,7 +3,7 @@ namespace Acme.BookStore.Books
 {
     public enum BookType
     {
-      Underfined,
+      Undefined,
       Adventure,
       Biography,
       Dystopia,

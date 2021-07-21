@@ -30,7 +30,7 @@ namespace Acme.BookStore.Migrations
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
-        {
+        {       
             migrationBuilder.DropTable(
                 name: "AppBooks");
         }

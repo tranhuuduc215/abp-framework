@@ -27,7 +27,7 @@ namespace Acme.BookStore.EntityFrameworkCore
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            base.OnModelCreating(builder);
+            base.OnModelCreating(builder);      
 
             /* Include modules to your migration db context */
 
